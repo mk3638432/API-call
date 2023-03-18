@@ -27,3 +27,6 @@ public/logo512.png
 public/logo192.png
 public/logo512.png
 public/favicon.ico
+node_modules
+favicon.icon
+logo192.png
