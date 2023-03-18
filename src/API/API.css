@@ -1,0 +1,40 @@
+.maindiv {
+    min-width: 250;
+    max-height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;     
+}
+.div{
+    padding: 10px;
+    border: 1px solid salmon;
+    background-color: black;   
+}
+
+.id {
+    text-align: center;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    color: white;
+}
+
+.body {
+    padding: 10px;
+    color: gray;  
+}
+
+
+/* MEDIA QUERIES MAKE RESPONSIVE */
+@media screen and (max-width : 900px) {
+    .maindiv {
+        max-width: 1000px;
+        max-height: 500px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5rem;  
+        margin: 10px;   
+    }
+}
